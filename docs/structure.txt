@@ -1,0 +1,7 @@
+forex_gym:
+   -setup.py(name,version,requirements)
+   -envs:
+       __init__.py(id, entry_point)
+       forex_env:
+           __init__.py
+           forex_gym(step, reset...)
